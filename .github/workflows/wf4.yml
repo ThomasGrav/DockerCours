@@ -1,0 +1,15 @@
+name: Mon Workflow Manuel
+
+on:
+  workflow_dispatch:
+
+jobs:
+  mon_job:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout du code
+      uses: actions/checkout@v2
+
+    - name: Exécution du job
+      run: echo "Ce job a été déclenché manuellement"
