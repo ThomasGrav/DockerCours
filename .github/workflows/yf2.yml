@@ -20,4 +20,4 @@ jobs:
       run: pip install -r requirements.txt
 
     - name : executer un code python qui import pandas et print('pandas dispo')      
-      run: python pandas.py
+      run: python bcancer.py
